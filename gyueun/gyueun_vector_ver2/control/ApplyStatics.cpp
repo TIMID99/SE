@@ -1,0 +1,1 @@
+#include "ApplyStatics.h"

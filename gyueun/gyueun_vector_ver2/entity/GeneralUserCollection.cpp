@@ -1,0 +1,2 @@
+#include "GeneralUserCollection.h"
+
