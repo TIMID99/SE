@@ -9,23 +9,30 @@
 #define SearchRecruitment_h
 
 #include <string>
+#include <vector>
+
 #include "SearchRecruitmentUI.h"
 #include "Company.h"
+#include "Recruitment.h"
+
+class SearchRecruitmentUI;
 
 class SearchRecruitment{
   
 private:
-    Company* companyList[200];
-    SearchRecruitmentUI searchRecruitmentUI;
+    SearchRecruitmentUI* searchRecruitmentUI;
+    Company* company;
+    std::vector<Recruitment*> recruitmentList;
+    
     
 public:
-    SearchRecruitment(char companyName){
-        
-        searchRecruitmentUI.startInterface();
-        searchRecruitmentUI.getCompanyName(companyName);
-    }
-
-    Recruitment* showRecruitmentList(char companyName);
+    SearchRecruitment();
+    
+    SearchRecruitmentUI* getInterfaceInstance();
+    vector<Recruitment*> showRecruitmentList(string companyName);
+    Comapany* getSearchingCompany();
+//    
+//    bool sortByCompanyName(Company* companyA, Company* companyB);
 };
 
 #endif /* SearchRecruitment_h */

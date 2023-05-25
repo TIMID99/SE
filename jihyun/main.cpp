@@ -8,10 +8,11 @@
 #include <stdio.h>
 #include <string.h>
 
-#include "SearchRecruitementUI.h"
+#include "SearchRecruitmentUI.h"
 #include "SearchRecruitment.h"
 #include "Company.h"
 #include "Recruitment.h"
+
 
 // 상수 선언
 #define MAX_STRING 32
@@ -111,7 +112,7 @@ void doTask()
  입력 : 4 1 [회사이름]
  출력 : [회사이름] [사업자번호] [업무] [인원 수 ] [신청마감일]
  */
-void searchRecruitment()
+void searchRecruitment(in_fp,out_fp)
 {
   /*            !!!!!!!       중요        !!!!!!!!!
    * 단순히 파일을 통해 입출력하는 방법을 보이기 위한 코드이므로 이 함수에서 그대로 사용하면 안됨.
@@ -125,12 +126,18 @@ void searchRecruitment()
     string companyName(input);
   
   // 해당 기능 수행
-    SearchRecruitment searchEngine(companyName);
+    
+  //
+    SearchRecruitment* searchEngine = new SearchRecruitment(companyName);
+    SearchRecruitmentUI* searchUI = new SearchRecruitmentUI();
+    
+    searchUI->startIn
+//    Recruitment* recruitmentList[200] = SearchRecruitment.showRecruitmentList(companyName);
     
 
     
    // 출력 형식
-   fprintf(out_fp, "1.1. 회원가입\n");
+   fprintf(out_fp, "4.1. 채용정보 검색\n");
    fprintf(out_fp, "%s %s %s %s\n", name, SSN, ID, password);
 }
 

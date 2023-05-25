@@ -8,15 +8,25 @@
 #ifndef SearchRecruitementUI_h
 #define SearchRecruitementUI_h
 
+#include <string>
 #include "SearchRecruitment.h"
+#include "Recruitment.h"
+
+using namespace std;
+
+class SearchRecruitment;
 
 class SearchRecruitmentUI{
     
 private:
-    SearchRecruit searchRecruit;
+    SearchRecruitment* searchRecruitment;
+    vector<Recruitment*> recruitmentList;
     
 public:
-    void startInterface();
-    char getCompanyName(char companyName);
+    SearchRecruitmentUI(SearchRecruitment*);
+    void startInterface(ifstream& , ofstream&);
+    
+    string getCompanyName(ifstream&);
+    
 };
 #endif /* SearchRecruitementUI_h */

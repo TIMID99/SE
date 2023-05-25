@@ -8,15 +8,22 @@
 #ifndef Recruitment_h
 #define Recruitment_h
 
-#include <time.h>
+#include <fstream>
+#include <string>
+
+using namespace std;
 
 class Recruitment{
 private:
-    char task;
+    int recruitmentIdx;
+    string task;
     int numOfMembers;
-    char deadline;
+    string deadline;
+    
 public:
-    void showRecruitmentInfo() const;
+    string getTask();
+    string getDeadline();
+    int getNumOfMembers();
     
 };
 
