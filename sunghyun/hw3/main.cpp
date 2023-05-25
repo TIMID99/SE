@@ -21,6 +21,7 @@ void program_exit();
 std::ifstream in_fp(INPUT_FILE_NAME);
 std::ofstream out_fp(OUTPUT_FILE_NAME);
 
+
 int main() {
 	// 파일 입출력을 위한 초기화
 	doTask();
@@ -61,6 +62,7 @@ void doTask() {
 						break;
 					}
 				}
+				break;
 			}
 			case 2: {
                 switch (menu_level_2) {
@@ -70,9 +72,11 @@ void doTask() {
                     }
                     case 2: {
                         logoutUI->startInterface(out_fp);
+						break;
                     }
 
                 }
+				break;
 			}
 
 			// ..
@@ -85,6 +89,7 @@ void doTask() {
 						break;
 					}
 				}
+				break;
 			}
 		}
 	}
@@ -92,5 +97,6 @@ void doTask() {
 
 
 void program_exit() {
+	out_fp << "6.1. 종료\n";
 	return;
 }
