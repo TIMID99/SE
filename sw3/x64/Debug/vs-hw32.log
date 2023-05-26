@@ -1,0 +1,26 @@
+﻿  SessionCollection.cpp
+  UserCollection.cpp
+  Company.cpp
+  DeleteUser.cpp
+  Login.cpp
+  Logout.cpp
+  SignUp.cpp
+  DeleteUserUI.cpp
+  LoginUI.cpp
+C:\Users\kim\Desktop\vs-hw32\LoginUI.cpp(19,19): warning C4566: character represented by universal-character-name '\uB85C' cannot be represented in the current code page (1252)
+C:\Users\kim\Desktop\vs-hw32\LoginUI.cpp(19,19): warning C4566: character represented by universal-character-name '\uADF8' cannot be represented in the current code page (1252)
+C:\Users\kim\Desktop\vs-hw32\LoginUI.cpp(19,19): warning C4566: character represented by universal-character-name '\uC778' cannot be represented in the current code page (1252)
+  LogoutUI.cpp
+  SignUpUI.cpp
+C:\Users\kim\Desktop\vs-hw32\SignUpUI.cpp(31,13): warning C4566: character represented by universal-character-name '\uD68C' cannot be represented in the current code page (1252)
+C:\Users\kim\Desktop\vs-hw32\SignUpUI.cpp(31,13): warning C4566: character represented by universal-character-name '\uC6D0' cannot be represented in the current code page (1252)
+C:\Users\kim\Desktop\vs-hw32\SignUpUI.cpp(31,13): warning C4566: character represented by universal-character-name '\uAC00' cannot be represented in the current code page (1252)
+C:\Users\kim\Desktop\vs-hw32\SignUpUI.cpp(31,13): warning C4566: character represented by universal-character-name '\uC785' cannot be represented in the current code page (1252)
+  main.cpp
+C:\Users\kim\Desktop\vs-hw32\main.cpp(100,12): warning C4566: character represented by universal-character-name '\uC885' cannot be represented in the current code page (1252)
+C:\Users\kim\Desktop\vs-hw32\main.cpp(100,12): warning C4566: character represented by universal-character-name '\uB8CC' cannot be represented in the current code page (1252)
+  Session.cpp
+  User.cpp
+  GeneralUser.cpp
+  Generating Code...
+  vs-hw32.vcxproj -> C:\Users\kim\Desktop\vs-hw32\x64\Debug\vs-hw32.exe
