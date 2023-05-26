@@ -10,9 +10,7 @@ void LogoutUI::startInterface(std::ofstream &out_fp) {
     std::string id = SessionCollection::getInstance()->getLastSession();
     this->logOut(id);
 
-    /*
-     * 출력 작성
-     */
+    // 출력 작성
     out_fp << "2.2. 로그아웃\n";
     out_fp << "> " << id << std::endl;
     out_fp << std::endl;

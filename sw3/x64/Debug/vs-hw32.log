@@ -1,6 +1,145 @@
-﻿  SessionCollection.cpp
+﻿  AppliedHistory.cpp
+C:\Users\kim\Desktop\vs-hw32\GeneralUserCollection.h(11,17): error C2065: 'GeneralUser': undeclared identifier
+C:\Users\kim\Desktop\vs-hw32\GeneralUserCollection.h(11,10): error C2923: 'std::vector': 'GeneralUser' is not a valid template type argument for parameter '_Ty'
+C:\Users\kim\Desktop\vs-hw32\GeneralUserCollection.h(11,17): message : see declaration of 'GeneralUser'
+C:\Users\kim\Desktop\vs-hw32\GeneralUserCollection.h(11,10): error C2976: 'std::vector': too few template arguments
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\vector(494,14): message : see declaration of 'std::vector'
+C:\Users\kim\Desktop\vs-hw32\AppliedHistoryUI.h(10,19): error C2143: syntax error: missing ';' before '*'
+C:\Users\kim\Desktop\vs-hw32\AppliedHistoryUI.h(10,19): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\kim\Desktop\vs-hw32\AppliedHistoryUI.h(10,42): error C2238: unexpected token(s) preceding ';'
+C:\Users\kim\Desktop\vs-hw32\AppliedHistoryUI.h(13,22): error C2061: syntax error: identifier 'AppliedHistory'
+C:\Users\kim\Desktop\vs-hw32\AppliedHistory.cpp(10,44): error C2665: 'AppliedHistoryUI::AppliedHistoryUI': no overloaded function could convert all the argument types
+C:\Users\kim\Desktop\vs-hw32\AppliedHistoryUI.h(16,1): message : could be 'AppliedHistoryUI::AppliedHistoryUI(AppliedHistoryUI &&)'
+C:\Users\kim\Desktop\vs-hw32\AppliedHistory.cpp(10,44): message : 'AppliedHistoryUI::AppliedHistoryUI(AppliedHistoryUI &&)': cannot convert argument 1 from 'AppliedHistory *' to 'AppliedHistoryUI &&'
+C:\Users\kim\Desktop\vs-hw32\AppliedHistory.cpp(10,45): message : Reason: cannot convert from 'AppliedHistory *' to 'AppliedHistoryUI'
+C:\Users\kim\Desktop\vs-hw32\AppliedHistory.cpp(10,45): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\kim\Desktop\vs-hw32\AppliedHistoryUI.h(16,1): message : or       'AppliedHistoryUI::AppliedHistoryUI(const AppliedHistoryUI &)'
+C:\Users\kim\Desktop\vs-hw32\AppliedHistory.cpp(10,44): message : 'AppliedHistoryUI::AppliedHistoryUI(const AppliedHistoryUI &)': cannot convert argument 1 from 'AppliedHistory *' to 'const AppliedHistoryUI &'
+C:\Users\kim\Desktop\vs-hw32\AppliedHistory.cpp(10,45): message : Reason: cannot convert from 'AppliedHistory *' to 'const AppliedHistoryUI'
+C:\Users\kim\Desktop\vs-hw32\AppliedHistory.cpp(10,45): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\kim\Desktop\vs-hw32\AppliedHistory.cpp(10,44): message : while trying to match the argument list '(AppliedHistory *)'
+  AppliedHistoryUI.cpp
+C:\Users\kim\Desktop\vs-hw32\GeneralUserCollection.h(11,17): error C2065: 'GeneralUser': undeclared identifier
+C:\Users\kim\Desktop\vs-hw32\GeneralUserCollection.h(11,10): error C2923: 'std::vector': 'GeneralUser' is not a valid template type argument for parameter '_Ty'
+C:\Users\kim\Desktop\vs-hw32\GeneralUserCollection.h(11,17): message : see declaration of 'GeneralUser'
+C:\Users\kim\Desktop\vs-hw32\GeneralUserCollection.h(11,10): error C2976: 'std::vector': too few template arguments
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\vector(494,14): message : see declaration of 'std::vector'
+C:\Users\kim\Desktop\vs-hw32\AppliedHistory.h(11,21): error C2143: syntax error: missing ';' before '*'
+C:\Users\kim\Desktop\vs-hw32\AppliedHistory.h(11,21): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\kim\Desktop\vs-hw32\AppliedHistory.h(11,39): error C2238: unexpected token(s) preceding ';'
+C:\Users\kim\Desktop\vs-hw32\AppliedHistory.h(15,21): error C2143: syntax error: missing ';' before '*'
+C:\Users\kim\Desktop\vs-hw32\AppliedHistory.h(15,21): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\kim\Desktop\vs-hw32\AppliedHistory.h(15,45): error C2238: unexpected token(s) preceding ';'
+  Apply.cpp
+C:\Users\kim\Desktop\vs-hw32\Apply.cpp(10,32): error C2027: use of undefined type 'ApplyUI'
+C:\Users\kim\Desktop\vs-hw32\Apply.h(10,7): message : see declaration of 'ApplyUI'
+C:\Users\kim\Desktop\vs-hw32\Apply.cpp(10,13): error C2513: 'ApplyUI': no variable declared before '='
+  CompanyCollection.cpp
+C:\Users\kim\Desktop\vs-hw32\GeneralUserRecruitmentCollection.h(14,12): error C2065: 'Recruitment': undeclared identifier
+C:\Users\kim\Desktop\vs-hw32\GeneralUserRecruitmentCollection.h(14,5): error C2923: 'std::vector': 'Recruitment' is not a valid template type argument for parameter '_Ty'
+C:\Users\kim\Desktop\vs-hw32\GeneralUserRecruitmentCollection.h(14,12): message : see declaration of 'Recruitment'
+C:\Users\kim\Desktop\vs-hw32\GeneralUserRecruitmentCollection.h(14,5): error C2976: 'std::vector': too few template arguments
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\vector(494,14): message : see declaration of 'std::vector'
+  CompanyRecruitmentCollection.cpp
+C:\Users\kim\Desktop\vs-hw32\GeneralUserRecruitmentCollection.h(14,12): error C2065: 'Recruitment': undeclared identifier
+C:\Users\kim\Desktop\vs-hw32\GeneralUserRecruitmentCollection.h(14,5): error C2923: 'std::vector': 'Recruitment' is not a valid template type argument for parameter '_Ty'
+C:\Users\kim\Desktop\vs-hw32\GeneralUserRecruitmentCollection.h(14,12): message : see declaration of 'Recruitment'
+C:\Users\kim\Desktop\vs-hw32\GeneralUserRecruitmentCollection.h(14,5): error C2976: 'std::vector': too few template arguments
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\vector(494,14): message : see declaration of 'std::vector'
+C:\Users\kim\Desktop\vs-hw32\Company.h(9,31): error C3646: 'ownedRecruitmentCollection': unknown override specifier
+C:\Users\kim\Desktop\vs-hw32\Company.h(9,57): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  GeneralUserCollection.cpp
+C:\Users\kim\Desktop\vs-hw32\Recruitment.h(11,27): error C3646: 'appliersCollection': unknown override specifier
+C:\Users\kim\Desktop\vs-hw32\Recruitment.h(11,45): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  GeneralUserRecruitmentCollection.cpp
+C:\Users\kim\Desktop\vs-hw32\GeneralUser.h(7,35): error C3646: 'appliedRecruitmentCollection': unknown override specifier
+C:\Users\kim\Desktop\vs-hw32\GeneralUser.h(7,63): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\kim\Desktop\vs-hw32\GeneralUser.h(11,21): error C2061: syntax error: identifier 'string'
+C:\Users\kim\Desktop\vs-hw32\GeneralUser.h(12,24): error C2061: syntax error: identifier 'string'
+C:\Users\kim\Desktop\vs-hw32\GeneralUser.h(13,22): error C2061: syntax error: identifier 'ofstream'
+C:\Users\kim\Desktop\vs-hw32\GeneralUser.h(15,31): error C2061: syntax error: identifier 'ofstream'
+C:\Users\kim\Desktop\vs-hw32\GeneralUserRecruitmentCollection.cpp(25,15): warning C4566: character represented by universal-character-name '\uC9C0' cannot be represented in the current code page (1252)
+C:\Users\kim\Desktop\vs-hw32\GeneralUserRecruitmentCollection.cpp(25,15): warning C4566: character represented by universal-character-name '\uC6D0' cannot be represented in the current code page (1252)
+C:\Users\kim\Desktop\vs-hw32\GeneralUserRecruitmentCollection.cpp(25,15): warning C4566: character represented by universal-character-name '\uC815' cannot be represented in the current code page (1252)
+C:\Users\kim\Desktop\vs-hw32\GeneralUserRecruitmentCollection.cpp(25,15): warning C4566: character represented by universal-character-name '\uBCF4' cannot be represented in the current code page (1252)
+C:\Users\kim\Desktop\vs-hw32\GeneralUserRecruitmentCollection.cpp(25,15): warning C4566: character represented by universal-character-name '\uC870' cannot be represented in the current code page (1252)
+C:\Users\kim\Desktop\vs-hw32\GeneralUserRecruitmentCollection.cpp(25,15): warning C4566: character represented by universal-character-name '\uD68C' cannot be represented in the current code page (1252)
+  Recruitment.cpp
+C:\Users\kim\Desktop\vs-hw32\GeneralUserRecruitmentCollection.h(14,12): error C2065: 'Recruitment': undeclared identifier
+C:\Users\kim\Desktop\vs-hw32\GeneralUserRecruitmentCollection.h(14,5): error C2923: 'std::vector': 'Recruitment' is not a valid template type argument for parameter '_Ty'
+C:\Users\kim\Desktop\vs-hw32\GeneralUserRecruitmentCollection.h(14,12): message : see declaration of 'Recruitment'
+C:\Users\kim\Desktop\vs-hw32\GeneralUserRecruitmentCollection.h(14,5): error C2976: 'std::vector': too few template arguments
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\vector(494,14): message : see declaration of 'std::vector'
+  SearchRecruitment.cpp
+C:\Users\kim\Desktop\vs-hw32\GeneralUserRecruitmentCollection.h(14,12): error C2065: 'Recruitment': undeclared identifier
+C:\Users\kim\Desktop\vs-hw32\GeneralUserRecruitmentCollection.h(14,5): error C2923: 'std::vector': 'Recruitment' is not a valid template type argument for parameter '_Ty'
+C:\Users\kim\Desktop\vs-hw32\GeneralUserRecruitmentCollection.h(14,12): message : see declaration of 'Recruitment'
+C:\Users\kim\Desktop\vs-hw32\GeneralUserRecruitmentCollection.h(14,5): error C2976: 'std::vector': too few template arguments
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\vector(494,14): message : see declaration of 'std::vector'
+C:\Users\kim\Desktop\vs-hw32\SearchRecruitment.h(33,13): error C2143: syntax error: missing ';' before '*'
+C:\Users\kim\Desktop\vs-hw32\SearchRecruitment.h(33,13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\kim\Desktop\vs-hw32\SearchRecruitment.h(33,36): error C2238: unexpected token(s) preceding ';'
+C:\Users\kim\Desktop\vs-hw32\SearchRecruitment.cpp(52,58): error C2065: 'comp': undeclared identifier
+C:\Users\kim\Desktop\vs-hw32\SearchRecruitment.cpp(52,5): error C3861: 'sort': identifier not found
+C:\Users\kim\Desktop\vs-hw32\SearchRecruitment.cpp(57,41): error C2084: function 'std::vector<Recruitment *,std::allocator<Recruitment *>> SearchRecruitment::showRecruitmentList(std::string)' already has a body
+C:\Users\kim\Desktop\vs-hw32\SearchRecruitment.cpp(28,41): message : see previous definition of 'showRecruitmentList'
+C:\Users\kim\Desktop\vs-hw32\SearchRecruitment.cpp(88,29): error C2039: 'getSearchingCompany': is not a member of 'SearchRecruitment'
+C:\Users\kim\Desktop\vs-hw32\SearchRecruitment.h(20,7): message : see declaration of 'SearchRecruitment'
+C:\Users\kim\Desktop\vs-hw32\SearchRecruitment.cpp(89,13): error C2065: 'company': undeclared identifier
+  SearchRecruitmentUI.cpp
+C:\Users\kim\Desktop\vs-hw32\GeneralUserRecruitmentCollection.h(14,12): error C2065: 'Recruitment': undeclared identifier
+C:\Users\kim\Desktop\vs-hw32\GeneralUserRecruitmentCollection.h(14,5): error C2923: 'std::vector': 'Recruitment' is not a valid template type argument for parameter '_Ty'
+C:\Users\kim\Desktop\vs-hw32\GeneralUserRecruitmentCollection.h(14,12): message : see declaration of 'Recruitment'
+C:\Users\kim\Desktop\vs-hw32\GeneralUserRecruitmentCollection.h(14,5): error C2976: 'std::vector': too few template arguments
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\vector(494,14): message : see declaration of 'std::vector'
+C:\Users\kim\Desktop\vs-hw32\SearchRecruitment.h(33,13): error C2143: syntax error: missing ';' before '*'
+C:\Users\kim\Desktop\vs-hw32\SearchRecruitment.h(33,13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\kim\Desktop\vs-hw32\SearchRecruitment.h(33,36): error C2238: unexpected token(s) preceding ';'
+C:\Users\kim\Desktop\vs-hw32\SearchRecruitmentUI.cpp(21,13): warning C4566: character represented by universal-character-name '\uD68C' cannot be represented in the current code page (1252)
+C:\Users\kim\Desktop\vs-hw32\SearchRecruitmentUI.cpp(21,13): warning C4566: character represented by universal-character-name '\uC0AC' cannot be represented in the current code page (1252)
+C:\Users\kim\Desktop\vs-hw32\SearchRecruitmentUI.cpp(21,13): warning C4566: character represented by universal-character-name '\uC774' cannot be represented in the current code page (1252)
+C:\Users\kim\Desktop\vs-hw32\SearchRecruitmentUI.cpp(21,13): warning C4566: character represented by universal-character-name '\uB984' cannot be represented in the current code page (1252)
+C:\Users\kim\Desktop\vs-hw32\SearchRecruitmentUI.cpp(21,13): warning C4566: character represented by universal-character-name '\uC73C' cannot be represented in the current code page (1252)
+C:\Users\kim\Desktop\vs-hw32\SearchRecruitmentUI.cpp(21,13): warning C4566: character represented by universal-character-name '\uB85C' cannot be represented in the current code page (1252)
+C:\Users\kim\Desktop\vs-hw32\SearchRecruitmentUI.cpp(21,13): warning C4566: character represented by universal-character-name '\uCC44' cannot be represented in the current code page (1252)
+C:\Users\kim\Desktop\vs-hw32\SearchRecruitmentUI.cpp(21,13): warning C4566: character represented by universal-character-name '\uC6A9' cannot be represented in the current code page (1252)
+C:\Users\kim\Desktop\vs-hw32\SearchRecruitmentUI.cpp(21,13): warning C4566: character represented by universal-character-name '\uC815' cannot be represented in the current code page (1252)
+C:\Users\kim\Desktop\vs-hw32\SearchRecruitmentUI.cpp(21,13): warning C4566: character represented by universal-character-name '\uBCF4' cannot be represented in the current code page (1252)
+C:\Users\kim\Desktop\vs-hw32\SearchRecruitmentUI.cpp(21,13): warning C4566: character represented by universal-character-name '\uAC80' cannot be represented in the current code page (1252)
+C:\Users\kim\Desktop\vs-hw32\SearchRecruitmentUI.cpp(21,13): warning C4566: character represented by universal-character-name '\uC0C9' cannot be represented in the current code page (1252)
+C:\Users\kim\Desktop\vs-hw32\SearchRecruitmentUI.cpp(21,13): warning C4566: character represented by universal-character-name '\uD398' cannot be represented in the current code page (1252)
+C:\Users\kim\Desktop\vs-hw32\SearchRecruitmentUI.cpp(21,13): warning C4566: character represented by universal-character-name '\uC9C0' cannot be represented in the current code page (1252)
+C:\Users\kim\Desktop\vs-hw32\SearchRecruitmentUI.cpp(21,13): warning C4566: character represented by universal-character-name '\uC785' cannot be represented in the current code page (1252)
+C:\Users\kim\Desktop\vs-hw32\SearchRecruitmentUI.cpp(21,13): warning C4566: character represented by universal-character-name '\uB2C8' cannot be represented in the current code page (1252)
+C:\Users\kim\Desktop\vs-hw32\SearchRecruitmentUI.cpp(21,13): warning C4566: character represented by universal-character-name '\uB2E4' cannot be represented in the current code page (1252)
+C:\Users\kim\Desktop\vs-hw32\SearchRecruitmentUI.cpp(25,39): error C2039: 'getSearchingCompany': is not a member of 'SearchRecruitment'
+C:\Users\kim\Desktop\vs-hw32\SearchRecruitmentUI.h(17,7): message : see declaration of 'SearchRecruitment'
+C:\Users\kim\Desktop\vs-hw32\SearchRecruitmentUI.cpp(27,15): warning C4566: character represented by universal-character-name '\uCC44' cannot be represented in the current code page (1252)
+C:\Users\kim\Desktop\vs-hw32\SearchRecruitmentUI.cpp(27,15): warning C4566: character represented by universal-character-name '\uC6A9' cannot be represented in the current code page (1252)
+C:\Users\kim\Desktop\vs-hw32\SearchRecruitmentUI.cpp(27,15): warning C4566: character represented by universal-character-name '\uC815' cannot be represented in the current code page (1252)
+C:\Users\kim\Desktop\vs-hw32\SearchRecruitmentUI.cpp(27,15): warning C4566: character represented by universal-character-name '\uBCF4' cannot be represented in the current code page (1252)
+C:\Users\kim\Desktop\vs-hw32\SearchRecruitmentUI.cpp(27,15): warning C4566: character represented by universal-character-name '\uAC80' cannot be represented in the current code page (1252)
+C:\Users\kim\Desktop\vs-hw32\SearchRecruitmentUI.cpp(27,15): warning C4566: character represented by universal-character-name '\uC0C9' cannot be represented in the current code page (1252)
+  SessionCollection.cpp
   UserCollection.cpp
   Company.cpp
+C:\Users\kim\Desktop\vs-hw32\GeneralUserRecruitmentCollection.h(14,12): error C2065: 'Recruitment': undeclared identifier
+C:\Users\kim\Desktop\vs-hw32\GeneralUserRecruitmentCollection.h(14,5): error C2923: 'std::vector': 'Recruitment' is not a valid template type argument for parameter '_Ty'
+C:\Users\kim\Desktop\vs-hw32\GeneralUserRecruitmentCollection.h(14,12): message : see declaration of 'Recruitment'
+C:\Users\kim\Desktop\vs-hw32\GeneralUserRecruitmentCollection.h(14,5): error C2976: 'std::vector': too few template arguments
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\vector(494,14): message : see declaration of 'std::vector'
+C:\Users\kim\Desktop\vs-hw32\Company.cpp(33,47): error C2248: 'User::name': cannot access private member declared in class 'User'
+C:\Users\kim\Desktop\vs-hw32\User.h(7,28): message : see declaration of 'User::name'
+C:\Users\kim\Desktop\vs-hw32\User.h(6,7): message : see declaration of 'User'
+C:\Users\kim\Desktop\vs-hw32\Company.cpp(33,53): error C2248: 'User::idNum': cannot access private member declared in class 'User'
+C:\Users\kim\Desktop\vs-hw32\User.h(7,34): message : see declaration of 'User::idNum'
+C:\Users\kim\Desktop\vs-hw32\User.h(6,7): message : see declaration of 'User'
+C:\Users\kim\Desktop\vs-hw32\Company.cpp(55,15): warning C4566: character represented by universal-character-name '\uC9C0' cannot be represented in the current code page (1252)
+C:\Users\kim\Desktop\vs-hw32\Company.cpp(55,15): warning C4566: character represented by universal-character-name '\uC6D0' cannot be represented in the current code page (1252)
+C:\Users\kim\Desktop\vs-hw32\Company.cpp(55,15): warning C4566: character represented by universal-character-name '\uC815' cannot be represented in the current code page (1252)
+C:\Users\kim\Desktop\vs-hw32\Company.cpp(55,15): warning C4566: character represented by universal-character-name '\uBCF4' cannot be represented in the current code page (1252)
+C:\Users\kim\Desktop\vs-hw32\Company.cpp(55,15): warning C4566: character represented by universal-character-name '\uD1B5' cannot be represented in the current code page (1252)
+C:\Users\kim\Desktop\vs-hw32\Company.cpp(55,15): warning C4566: character represented by universal-character-name '\uACC4' cannot be represented in the current code page (1252)
   DeleteUser.cpp
   Login.cpp
   Logout.cpp
@@ -11,7 +150,14 @@ C:\Users\kim\Desktop\vs-hw32\LoginUI.cpp(19,19): warning C4566: character repres
 C:\Users\kim\Desktop\vs-hw32\LoginUI.cpp(19,19): warning C4566: character represented by universal-character-name '\uADF8' cannot be represented in the current code page (1252)
 C:\Users\kim\Desktop\vs-hw32\LoginUI.cpp(19,19): warning C4566: character represented by universal-character-name '\uC778' cannot be represented in the current code page (1252)
   LogoutUI.cpp
+  Generating Code...
+  Compiling...
   SignUpUI.cpp
+C:\Users\kim\Desktop\vs-hw32\GeneralUserRecruitmentCollection.h(14,12): error C2065: 'Recruitment': undeclared identifier
+C:\Users\kim\Desktop\vs-hw32\GeneralUserRecruitmentCollection.h(14,5): error C2923: 'std::vector': 'Recruitment' is not a valid template type argument for parameter '_Ty'
+C:\Users\kim\Desktop\vs-hw32\GeneralUserRecruitmentCollection.h(14,12): message : see declaration of 'Recruitment'
+C:\Users\kim\Desktop\vs-hw32\GeneralUserRecruitmentCollection.h(14,5): error C2976: 'std::vector': too few template arguments
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\vector(494,14): message : see declaration of 'std::vector'
 C:\Users\kim\Desktop\vs-hw32\SignUpUI.cpp(31,13): warning C4566: character represented by universal-character-name '\uD68C' cannot be represented in the current code page (1252)
 C:\Users\kim\Desktop\vs-hw32\SignUpUI.cpp(31,13): warning C4566: character represented by universal-character-name '\uC6D0' cannot be represented in the current code page (1252)
 C:\Users\kim\Desktop\vs-hw32\SignUpUI.cpp(31,13): warning C4566: character represented by universal-character-name '\uAC00' cannot be represented in the current code page (1252)
@@ -20,7 +166,18 @@ C:\Users\kim\Desktop\vs-hw32\SignUpUI.cpp(31,13): warning C4566: character repre
 C:\Users\kim\Desktop\vs-hw32\main.cpp(100,12): warning C4566: character represented by universal-character-name '\uC885' cannot be represented in the current code page (1252)
 C:\Users\kim\Desktop\vs-hw32\main.cpp(100,12): warning C4566: character represented by universal-character-name '\uB8CC' cannot be represented in the current code page (1252)
   Session.cpp
-  User.cpp
   GeneralUser.cpp
+C:\Users\kim\Desktop\vs-hw32\GeneralUserCollection.h(11,17): error C2065: 'GeneralUser': undeclared identifier
+C:\Users\kim\Desktop\vs-hw32\GeneralUserCollection.h(11,10): error C2923: 'std::vector': 'GeneralUser' is not a valid template type argument for parameter '_Ty'
+C:\Users\kim\Desktop\vs-hw32\GeneralUserCollection.h(11,17): message : see declaration of 'GeneralUser'
+C:\Users\kim\Desktop\vs-hw32\GeneralUserCollection.h(11,10): error C2976: 'std::vector': too few template arguments
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\vector(494,14): message : see declaration of 'std::vector'
+C:\Users\kim\Desktop\vs-hw32\GeneralUser.cpp(13,19): error C2039: 'searchRecruitment': is not a member of 'GeneralUser'
+C:\Users\kim\Desktop\vs-hw32\GeneralUser.h(6,7): message : see declaration of 'GeneralUser'
+C:\Users\kim\Desktop\vs-hw32\GeneralUser.cpp(38,15): warning C4566: character represented by universal-character-name '\uC9C0' cannot be represented in the current code page (1252)
+C:\Users\kim\Desktop\vs-hw32\GeneralUser.cpp(38,15): warning C4566: character represented by universal-character-name '\uC6D0' cannot be represented in the current code page (1252)
+C:\Users\kim\Desktop\vs-hw32\GeneralUser.cpp(38,15): warning C4566: character represented by universal-character-name '\uC815' cannot be represented in the current code page (1252)
+C:\Users\kim\Desktop\vs-hw32\GeneralUser.cpp(38,15): warning C4566: character represented by universal-character-name '\uBCF4' cannot be represented in the current code page (1252)
+C:\Users\kim\Desktop\vs-hw32\GeneralUser.cpp(38,15): warning C4566: character represented by universal-character-name '\uD1B5' cannot be represented in the current code page (1252)
+C:\Users\kim\Desktop\vs-hw32\GeneralUser.cpp(38,15): warning C4566: character represented by universal-character-name '\uACC4' cannot be represented in the current code page (1252)
   Generating Code...
-  vs-hw32.vcxproj -> C:\Users\kim\Desktop\vs-hw32\x64\Debug\vs-hw32.exe

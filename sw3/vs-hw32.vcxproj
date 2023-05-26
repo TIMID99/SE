@@ -98,6 +98,23 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="AppliedHistory.cpp" />
+    <ClCompile Include="AppliedHistoryUI.cpp" />
+    <ClCompile Include="Apply.cpp" />
+    <ClCompile Include="ApplyRecruitementUI.cpp" />
+    <ClCompile Include="ApplyRecruitment.cpp" />
+    <ClCompile Include="ApplyStatics.cpp" />
+    <ClCompile Include="ApplyStaticsUI.cpp" />
+    <ClCompile Include="ApplyUI.cpp" />
+    <ClCompile Include="CheckApply.cpp" />
+    <ClCompile Include="CheckApplyUI.cpp" />
+    <ClCompile Include="CompanyCollection.cpp" />
+    <ClCompile Include="CompanyRecruitmentCollection.cpp" />
+    <ClCompile Include="GeneralUserCollection.cpp" />
+    <ClCompile Include="GeneralUserRecruitmentCollection.cpp" />
+    <ClCompile Include="Recruitment.cpp" />
+    <ClCompile Include="SearchRecruitment.cpp" />
+    <ClCompile Include="SearchRecruitmentUI.cpp" />
     <ClCompile Include="SessionCollection.cpp" />
     <ClCompile Include="UserCollection.cpp" />
     <ClCompile Include="Company.cpp" />
@@ -115,6 +132,23 @@
     <ClCompile Include="GeneralUser.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="AppliedHistory.h" />
+    <ClInclude Include="AppliedHistoryUI.h" />
+    <ClInclude Include="Apply.h" />
+    <ClInclude Include="ApplyRecruitment.h" />
+    <ClInclude Include="ApplyRecruitmentUI.h" />
+    <ClInclude Include="ApplyStatics.h" />
+    <ClInclude Include="ApplyStaticsUI.h" />
+    <ClInclude Include="ApplyUI.h" />
+    <ClInclude Include="CheckApply.h" />
+    <ClInclude Include="CheckApplyUI.h" />
+    <ClInclude Include="CompanyCollection.h" />
+    <ClInclude Include="CompanyRecruitmentCollection.h" />
+    <ClInclude Include="GeneralUserCollection.h" />
+    <ClInclude Include="GeneralUserRecruitmentCollection.h" />
+    <ClInclude Include="Recruitment.h" />
+    <ClInclude Include="SearchRecruitment.h" />
+    <ClInclude Include="SearchRecruitmentUI.h" />
     <ClInclude Include="SessionCollection.h" />
     <ClInclude Include="UserCollection.h" />
     <ClInclude Include="Company.h" />

@@ -1,13 +1,15 @@
-#pragma once
+﻿#pragma once
 
 #include "UserCollection.h"
 #include <fstream>
+
 class SignUpUI;
+
 class SignUp {
 	SignUpUI* signUpUI;
 
 public:
 	SignUp();
-	SignUpUI* getInterfaceInstance();
-	bool addUserRequest(User*);
+	SignUpUI* getInterfaceInstance(); // boundary 반환
+	bool addUserRequest(User*); // boundary가 입력정보를 보냄
 };

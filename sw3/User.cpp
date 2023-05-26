@@ -16,3 +16,13 @@ std::string User::getId() {
 std::string User::getPassword() {
     return password;
 }
+
+// General user 이름 or Company 이름 반환
+std::string User::getName() {
+	return name;
+}
+
+// General user 주민번호 or Comapny 사업자번호 반환
+std::string User::getIdNum() {
+	return idNum;
+}
