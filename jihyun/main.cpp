@@ -5,14 +5,22 @@
 //  Created by 정지현 on 2023/05/20.
 //
 
-#include <stdio.h>
-#include <string.h>
+
+#include <string>
+#include <fstream>
 
 #include "SearchRecruitmentUI.h"
 #include "SearchRecruitment.h"
-#include "Company.h"
-#include "Recruitment.h"
 
+#include "interface_delete_user.h"
+#include "interface_login.h"
+#include "interface_logout.h"
+#include "control_signup.h"
+#include "control_delete_user.h"
+#include "control_login.h"
+#include "control_logout.h"
+#include "user.h"
+#include "interface_signup.h"
 
 // 상수 선언
 #define MAX_STRING 32
@@ -25,7 +33,8 @@ void doTask();
 void program_exit();
 
 // 변수 선언
-FILE* in_fp, *out_fp;
+std::ifstream in_fp(INPUT_FILE_NAME);
+std::ofstream out_fp(OUTPUT_FILE_NAME);
 
 int main()
 {
@@ -46,18 +55,64 @@ int main()
 void doTask()
 {
   // 메뉴 파싱을 위한 level 구분을 위한 변수
-  int menu_level_1 = 0, menu_level_2 = 0;
-  int is_program_exit = 0;
+    int menu_level_1 = 0, menu_level_2 = 0;
+    int is_program_exit = 0;
+    
+    SignUp* signUpControl = new SignUp();
+    SignUpUI* signUpUI = signUpControl->getInterfaceInstance();
+
+    // 회원탈퇴 boundary & control
+    DeleteUser* deleteUserControl = new DeleteUser();
+    DeleteUserUI* deleteUserUI = deleteUserControl->getInterfaceInstance();
+
+    // 로그인 boundary & control
+    Login* loginControl = new Login();
+    LoginUI* loginUI = loginControl->getInterfaceInstance();
+
+    // 로그아웃 boundary & control
+    Logout* logoutControl = new Logout();
+    LogoutUI* logoutUI = logoutControl->getInterfaceInstance();
+    // 채용정보 검색
+    SearchRecruitment* searchEngine = new SearchRecruitment();
+   SearchRecruitmentUI* searchUI = searchEngine->getInterfaceInstance();
+    
+  // 채용 지원
     
   while(!is_program_exit)
   {
       // 입력파일에서 메뉴 숫자 2개를 읽기
-      fscanf(in_fp, "%d %d ", &menu_level_1, &menu_level_2);
-      
+      in_fp >> menu_level_1 >> menu_level_2;
       
       // 메뉴 구분 및 해당 연산 수행
       switch(menu_level_1)
       {
+            
+          case 1: {
+              switch (menu_level_2) {
+                  case 1: { // 1.1 회원가입 메뉴 부분
+                      signUpUI->startInterface(in_fp, out_fp);
+                      break;
+                  }
+                  case 2: { // 1.2 회원탈퇴 메뉴 부분
+                      deleteUserUI->startInterface(out_fp);
+                      break;
+                  }
+              }
+              break;
+          }
+              
+          case 2: {
+              switch (menu_level_2) {
+                  case 1: {
+                      loginUI->startInterface(in_fp, out_fp);
+                      break;
+                  }
+                  case 2: {
+                      logoutUI->startInterface(out_fp);
+                      break;
+                  }
+
+              }
           case 4:
           {
               switch(menu_level_2)
@@ -65,14 +120,13 @@ void doTask()
                   case 1:   // "4.1 채용 정보 검색
                   {
                       // join() 함수에서 해당 기능 수행
-                      searchRecruitment();
-                      
+                      searchUI->startInterface(in_fp, out_fp);
                       break;
+                      
                   }
                   case 2:   // 4.2 채용 지원
                   {
-                      ...
-                      break;
+                      
                   }
                   case 4:   // 4.4 채용 취소
                   {
@@ -106,38 +160,4 @@ void doTask()
   }
     
 
-
-/**
- 기능 : 채용 정보 검색
- 입력 : 4 1 [회사이름]
- 출력 : [회사이름] [사업자번호] [업무] [인원 수 ] [신청마감일]
- */
-void searchRecruitment(in_fp,out_fp)
-{
-  /*            !!!!!!!       중요        !!!!!!!!!
-   * 단순히 파일을 통해 입출력하는 방법을 보이기 위한 코드이므로 이 함수에서 그대로 사용하면 안됨.
-   * control 및 boundary class를 이용해서 해당 기능이 구현되도록 해야 함.
-   */
-
-    char input[MAX_STRING];
-//
-//   // 입력 형식 : 이름, 주민번호, ID, Password를 파일로부터 읽음
-    fscanf(in_fp, "%s", input);
-    string companyName(input);
-  
-  // 해당 기능 수행
-    
-  //
-    SearchRecruitment* searchEngine = new SearchRecruitment(companyName);
-    SearchRecruitmentUI* searchUI = new SearchRecruitmentUI();
-    
-    searchUI->startIn
-//    Recruitment* recruitmentList[200] = SearchRecruitment.showRecruitmentList(companyName);
-    
-
-    
-   // 출력 형식
-   fprintf(out_fp, "4.1. 채용정보 검색\n");
-   fprintf(out_fp, "%s %s %s %s\n", name, SSN, ID, password);
-}
 

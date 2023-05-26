@@ -14,6 +14,7 @@
 using namespace std;
 
 class Recruitment{
+    
 private:
     int recruitmentIdx;
     string task;
