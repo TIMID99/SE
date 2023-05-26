@@ -2,9 +2,8 @@
 //  SearchRecruitmentUI.cpp
 //  실습_state_machine
 //
-//  Created by 정지현 on 2023/05/24.
+//  Created by 정지현 on 2023/05/26.
 //
-
 
 #include <iostream>
 #include <string>
@@ -47,5 +46,3 @@ string SearchRecruitmentUI::getCompanyName(std::ifstream &in_fp){
     
     return targetCompany;
 }
-
-
